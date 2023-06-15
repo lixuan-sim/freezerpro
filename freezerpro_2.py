@@ -9,6 +9,8 @@ import pandas as pd
 import os
 import datetime
 
+# CHANGE DIRECTORY TO FILEPATH WITH DOWNLOADED FREEZERPRO SAMPLE REPORT CSV
+downloaded_FP_sample_report_directory = r'\\Breakthrough\breakthrough\Shared\- MOLECULAR ONCOLOGY LAB\FUNCTIONAL\Li Xuan\freezerpro\downloaded\test'
 
 def get_columns(columns):
     # Define a list of columns to be placed at the top of the final list
@@ -32,8 +34,7 @@ def get_columns(columns):
 # use backslash for directory to ensure it reads, do not just copy & paste
 # or use r'directory'
 
-os.chdir(r'\\Breakthrough\breakthrough\Shared\- MOLECULAR ONCOLOGY LAB\FUNCTIONAL\Li Xuan\freezerpro\downloaded\test')
-#\\Breakthrough\breakthrough\Shared\- MOLECULAR ONCOLOGY LAB\FUNCTIONAL\Li Xuan\freezerpro\downloaded\test
+os.chdir(downloaded_FP_sample_report_directory)
 
 # Use glob to match the regular expression 'csv'
 extension = 'csv'
