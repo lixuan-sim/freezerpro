@@ -1,4 +1,4 @@
-# Purpose of script
+# Purpose of program
 Automation of file downloading and compilation for audits. The current process of completing FreezerPro audits is manual and involves collating massive Excel files (> 30 000 samples), taking up time and introduce space for mistakes. I have written this script to automate these processes:
 
 - compile all .csv files with samples that have been downloaded from FreezerPro website;
