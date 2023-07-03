@@ -1,17 +1,11 @@
-# install Python
-# run cmd as admin - pip install wheel
-# run cmd as admin - pip install pandas
-
 #import modules
-
 import glob
 import pandas as pd
 import os
 import datetime
 
 # CHANGE DIRECTORY TO FILEPATH WITH DOWNLOADED FREEZERPRO SAMPLE REPORT CSV
-downloaded_FP_sample_report_directory = r'\\Breakthrough\breakthrough\Shared\- MOLECULAR ONCOLOGY LAB\FUNCTIONAL\Li Xuan\freezerpro\downloaded\test'
-
+downloaded_FP_sample_report_directory = r'\\Breakthrough\breakthrough\Shared\- MOLECULAR ONCOLOGY LAB\FUNCTIONAL\Li Xuan\freezerpro\downloaded\test
 def get_columns(columns):
     # Define a list of columns to be placed at the top of the final list
     my_columns = ['UID', 'NAME', 'SAMPLE TYPE', 'DATE SAMPLE TAKEN', 'FREEZER', 'LEVEL1', 'LEVEL2', 'BOX', 'POSITION']
@@ -73,11 +67,3 @@ all_samples_file = pd.read_csv(date_today + '_all_FreezerPro_samples.csv', low_m
 audit_samples = all_samples_file.sample(10)
 
 audit_samples.to_csv(date_today + '_generated_audit_samples.csv', index = None)
-
-
-
-# to run script: 
-# 1. Change work directory of this python script to where downloaded FreezerPro Excel files are stored. 
-# 2. Open cmd. 
-# 2. Set cmd directory to where this Python script is stored. 
-# 3. Run "python freezerpro_2.py"
