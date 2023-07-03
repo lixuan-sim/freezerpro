@@ -5,7 +5,8 @@ import os
 import datetime
 
 # CHANGE DIRECTORY TO FILEPATH WITH DOWNLOADED FREEZERPRO SAMPLE REPORT CSV
-downloaded_FP_sample_report_directory = r'\\Breakthrough\breakthrough\Shared\- MOLECULAR ONCOLOGY LAB\FUNCTIONAL\Li Xuan\freezerpro\downloaded\test
+downloaded_FP_sample_report_directory = r'\\Breakthrough\breakthrough\Shared\- MOLECULAR ONCOLOGY LAB\FUNCTIONAL\Li Xuan\freezerpro\downloaded\test'
+
 def get_columns(columns):
     # Define a list of columns to be placed at the top of the final list
     my_columns = ['UID', 'NAME', 'SAMPLE TYPE', 'DATE SAMPLE TAKEN', 'FREEZER', 'LEVEL1', 'LEVEL2', 'BOX', 'POSITION']
