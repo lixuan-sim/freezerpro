@@ -17,10 +17,10 @@ pip install wheel
 ```
 ## To run script
 - Save 'python_2.py', noting file directory
-- Change the following variable in python_2.py to working directory containing FreezerPro Sample Report files:
-```
-    ***downloaded_FP_sample_report_directory***
-```
+- Change the following variable in python_2.py to working directory containing FreezerPro Sample Report files:<br>
+
+**downloaded_FP_sample_report_directory**<br>
+
 - Navigate to file directory in terminal
 - Run script with this command:
 ```
