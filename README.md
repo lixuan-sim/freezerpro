@@ -28,8 +28,8 @@ python freezerpro_2.py
 ```
 
 ## Output
-- Excel of all live samples as 'Month-Year_all_samples.xlsx'
-- Excel of 10 randomly generated samples as 'Month_Year_generated_samples.xlsx'
+- Excel of all live samples as 'Month-Year_all_FreezerPro_samples_combined.csv'
+- Excel of 10 randomly generated samples as 'Month_Year_generated_audit_samples.csv'
 
 # To do:
 
